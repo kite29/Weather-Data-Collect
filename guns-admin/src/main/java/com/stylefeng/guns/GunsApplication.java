@@ -54,7 +54,7 @@ public class GunsApplication {
         SpringApplication.run(GunsApplication.class, args);
         
         logger.info("GunsApplication is success!");
-        String key="7536bc1d3d174fd0b49b5d3055a1f550";
+        String key="xxx";
         ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
         // 参数：1、任务体 2、首次执行的延时时间
         //      3、任务执行间隔 4、间隔时间单位
